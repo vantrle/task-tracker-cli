@@ -1,0 +1,24 @@
+# Python package metadata
+task_tracker_cli.egg-info/
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Python virtual environment
+.venv/
+venv/
+
+# Log files
+*.log
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+
+# Distribution archives
+*.tar.gz
+*.whl
+
+tasks.json
