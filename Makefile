@@ -14,7 +14,7 @@ install: venv
 	$(PIP) install .
 
 test:
-	$(VENV)/bin/pytest -v
+	$(VENV)/bin/pytest tests -v
 
 lint:
 	$(VENV)/bin/flake8 task_tracker

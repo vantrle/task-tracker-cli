@@ -147,9 +147,6 @@ def main():
 
     create_json_file()
     args = sys.argv[1:]
-    if not args:
-        print_help()
-        return
 
     command = args[0]
     if command == "add" and len(args) > 1:
